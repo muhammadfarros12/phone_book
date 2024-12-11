@@ -4,7 +4,7 @@ import 'package:iconsax/iconsax.dart';
 import 'package:my_phone_book/constants/colors.dart';
 
 class PLoaders {
-  errorSnakbar({required title, message = ''}) {
+  static errorSnakbar({required title, message = ''}) {
     Get.snackbar(title, message,
         isDismissible: true,
         shouldIconPulse: true,
@@ -19,7 +19,7 @@ class PLoaders {
         ));
   }
 
-  successSnakbar({required title, message = ''}) {
+  static successSnakbar({required title, message = ''}) {
     Get.snackbar(title, message,
         isDismissible: true,
         shouldIconPulse: true,
@@ -34,7 +34,7 @@ class PLoaders {
         ));
   }
 
-  warningSnakbar({required title, message = ''}) {
+  static warningSnakbar({required title, message = ''}) {
     Get.snackbar(title, message,
         isDismissible: true,
         shouldIconPulse: true,
