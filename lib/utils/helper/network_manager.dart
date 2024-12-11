@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:my_phone_book/popups/status_snackbar.dart';
+import 'package:my_phone_book/utils/popups/status_snackbar.dart';
 
 //?Manage the network connectivity status and provide methods to check and handle connectivity changes
 class NetworkManager extends GetxController {
